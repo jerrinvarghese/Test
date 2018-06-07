@@ -40,7 +40,7 @@ namespace MVCAddDynamicTextBox.Controllers
         {
             return View();
         }
-
+        //sample
         [HttpPost]
         public ActionResult DynamicTextbox(string[] txtBoxes)
         {
@@ -51,7 +51,7 @@ namespace MVCAddDynamicTextBox.Controllers
             }
             ViewBag.DemoMessage = txtBoxValues;
 
-            return View();
+            return View();  
         }
     }
 }
